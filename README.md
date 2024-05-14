@@ -23,8 +23,8 @@
     ```bash
     $ poetry install
     ```
-
-     ```powershell
+    powershell
+     ```
 
    > poetry.exe install
      ```
@@ -45,7 +45,8 @@
     $ poetry shell
     $ streamlit run app.py
     ```
-    ```powershell
+    powershell
+    ```
     > poetry.exe shell
     > streamlit run app.py
     ```
