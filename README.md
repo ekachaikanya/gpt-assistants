@@ -24,10 +24,10 @@
     $ poetry install
     ```
 
-    powershell
+     ```powershell
 
    > poetry.exe install
-
+     ```
 6. 🔑 Set environment variables
 
     ```bash
