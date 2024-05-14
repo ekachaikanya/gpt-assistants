@@ -24,7 +24,11 @@
     $ poetry install
     ```
 
-5. 🔑 Set environment variables
+    powershell
+
+   > poetry.exe install
+
+6. 🔑 Set environment variables
 
     ```bash
     OPENAI_API_KEY="sk-xxx"
@@ -35,11 +39,15 @@
     ```
     If you use azure instead, set `AZURE_OPENAI_ENDPOINT` and `AZURE_OPENAI_KEY`
 
-6. 🏃‍️ Run the app
+7. 🏃‍️ Run the app
 
     ```bash
     $ poetry shell
     $ streamlit run app.py
+    ```
+    ```powershell
+    > poetry.exe shell
+    > streamlit run app.py
     ```
 
 ## 🐳 Run the app using Docker
